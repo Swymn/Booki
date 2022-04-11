@@ -1,0 +1,37 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: 2rem auto 0;
+}
+
+/* Header Content */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .logo {
+    height: 3rem;
+}
+
+#header nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+#header nav .nav-menu {
+    display: flex;
+}
+
+#header nav .nav-menu .nav-item {
+    text-decoration: none;
+    color: gray;
+}
+
+#header nav .nav-menu .active {
+    color: blue;
+}
