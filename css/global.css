@@ -3,8 +3,12 @@
 }
 
 body {
-    width: 90%;
-    margin: 2rem auto 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
 }
 
 a {
@@ -13,6 +17,11 @@ a {
 }
 
 /* Global Section */
+
+.workflow {
+    width: 90%;
+    margin: 2rem auto 0;
+}
 
 .icon {
     display: flex;
@@ -32,13 +41,12 @@ a {
     height: 3rem;
 }
 
-#header nav {
-    list-style-type: none;
-    padding: 0;
-}
-
 #header nav .nav-menu {
     display: flex;
+}
+
+#header nav .nav-menu li {
+    padding: 0 2rem;
 }
 
 #header nav .nav-menu .active {
@@ -100,12 +108,11 @@ a {
 
 #search .filter-section p {
     margin-right: 1rem;
+    font-weight: bold;
 }
 
 #search .filter-section .filters {
     display: flex;
-    list-style-type: none;
-    padding: 0;
 }
 
 #search .filter-section .filters .filter a {
@@ -200,6 +207,7 @@ a {
 
 #hebergements .container .card {
     background-color: white;
+    box-shadow: 7px 7px 15px -2px rgba(0,0,0,0.25);
     border-radius: 1rem;
     padding: 4px;
     width: 11rem;
@@ -254,6 +262,7 @@ a {
 #most-popular .content .card {
     display: flex;
     background-color: #fff;
+    box-shadow: 7px 7px 15px -2px rgba(0,0,0,0.25);
     border-radius: 1rem;
     width: 100%;
     height: 6.5rem;
@@ -273,4 +282,102 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* Activités Section */
+
+#activites {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#activites .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 24rem;
+}
+
+#activites .card {
+    border-radius: 1rem;
+    box-shadow: 7px 7px 15px -2px rgba(0,0,0,0.25);
+    width: 18rem;
+    position: relative;
+}
+
+#activites .card .picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+#activites .card div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#activites .card div p {
+    background-color: #fff;
+    margin: 0;
+    height: 2.5rem;
+    padding: 1rem 0 0 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#activites .card-1 {
+    height: 24rem;
+}
+
+#activites .card-2 {
+    height: 13.2rem;
+}
+
+#activites .card-3 {
+    height: 8.8rem;
+}
+
+#activites .card-4,
+#activites .card-4-bis {
+    height: 11rem;
+}
+
+#activites .card-2,
+#activites .card-4 {
+    margin-bottom: 1rem;
+}
+
+#activites .card-3,
+#activites .card-4-bis {
+    margin-top: 1rem;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #eee;
+    width: 100%;
+    position: absolute;
+}
+
+#footer .container {
+    display: flex;
+    padding: 0;
+}
+
+#footer .container .menu-container {
+    margin-left: 2rem;
+    margin-right: 15rem;
+}
+
+#footer .container .menu-container h4 {
+    margin-bottom: 10px;
+}
+
+#footer .container .menu-container .menu-footer {
+    line-height: 2;
+    font-weight: lighter;
+    font-size: 12px;
 }
