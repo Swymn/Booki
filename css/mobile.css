@@ -161,6 +161,7 @@ html {
 
 /* Footer */
 
-#footer {
-    /* TODO : FIXED POSITION */
+#footer .container {
+    display: flex;
+    flex-direction: column;
 }
