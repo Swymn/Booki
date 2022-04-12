@@ -1,0 +1,166 @@
+/* Global Section */
+
+html {
+    width: 100%;
+}
+
+.workflow {
+    width: 100%;
+}
+
+/* Header Section */
+
+#header {
+    flex-direction: column;
+}
+
+#header .logo {
+    margin: 0 auto 1.5rem;
+}
+
+#header nav .nav-menu {
+    justify-content: flex-start;
+}
+
+#header nav .nav-menu li {
+    padding: 0;
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 50%;
+    border-bottom: 3px solid gray;
+}
+
+#header nav .nav-menu .active {
+    color: #0d6efd;
+}
+
+#header nav .nav-menu .li-active {
+    border-bottom-color: #0d6efd;
+}
+
+/* Search Section */
+
+#search {
+    width: 90%;
+    margin: auto;
+}
+
+#search .search-section h3 {
+    line-height: 1;
+}
+
+/* #search .search-section .search-bar .button-field {
+    TODO : MODIFIER LE MOT RECHERCHER PAR UNE LOUPE   
+} */
+
+#search .filter-section {
+    flex-direction: column;
+}
+
+#search .filter-section p {
+    margin: 0.5rem 0 0 0;
+}
+
+#search .filter-section .filters {
+    flex-wrap: wrap;
+}
+
+#search .filter-section .filters .filter {
+    padding: 0.25rem 0;
+}
+
+#search .info {
+    margin-bottom: 1rem;
+}
+
+/* Main Content Section */
+
+.main-content {
+    flex-direction: column-reverse;
+}
+
+/* Hébergement Section */
+
+#hebergements {
+    background-color: #fff;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+}
+
+#hebergements .title {
+    margin: 2rem 1rem 0.5rem;
+}
+
+#hebergements .container {
+    flex-direction: column;
+}
+
+#hebergements .container a {
+    margin: 0;
+}
+
+#hebergements .container a .card {
+    width: 90%;
+    margin: 0.5rem 1rem;
+}
+
+#hebergements .more {
+    padding: 0;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+/* Most Popular Section */
+
+#most-popular {
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+}
+
+#most-popular .title {
+    display: flex;
+    align-items: center;
+}
+
+#most-popular .title h3 {
+    margin: 1rem;
+}
+
+#most-popular .title i {
+    margin: 1rem;
+}
+
+#most-popular .content .card {
+    min-width: none;
+    width: 90%;
+    margin: 1rem;
+}
+
+/* Activites Section */
+
+#activites {
+    margin: 0 1rem;
+}
+
+#activites .cards {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#activites .cards .card {
+    width: 100%;
+    height: 14rem;
+    margin: 0.5rem 0;
+}
+
+#activites .cards .card p {
+    font-weight: bold;
+}
+
+/* Footer */
+
+#footer {
+    /* TODO : FIXED POSITION */
+}
