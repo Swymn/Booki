@@ -60,6 +60,21 @@ footer {
     line-height: 1;
 }
 
+#search .search-section .search-bar .mobile-button {
+    background-color: #0d6efd;
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 0 1rem;
+    border: none;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#search .search-section .search-bar .button-field {
+    display: none;
+}
+
 /* #search .search-section .search-bar .button-field {
     TODO : MODIFIER LE MOT RECHERCHER PAR UNE LOUPE   
 } */
