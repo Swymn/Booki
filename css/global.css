@@ -262,7 +262,7 @@ a {
     font-size: 14px;
 }
 
-#most-popular .content .card {
+#most-popular .container .card {
     display: flex;
     background-color: #fff;
     box-shadow: 7px 7px 15px -2px rgba(0,0,0,0.25);
@@ -274,14 +274,14 @@ a {
     margin: 2rem 0;
 }
 
-#most-popular .content .card .picture {
+#most-popular .container .card .picture {
     width: 6.5rem;
     height: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-#most-popular .content .card .description {
+#most-popular .container .card .description {
     margin: 4px 1rem;
     display: flex;
     flex-direction: column;

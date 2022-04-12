@@ -4,8 +4,19 @@ html {
     width: 100%;
 }
 
+body {
+    position: relative;
+    box-sizing: border-box;
+}
+
+footer {
+    position: absolute;
+    bottom: -50%;
+}
+
 .workflow {
     width: 100%;
+    /* position: absolute; */
 }
 
 /* Header Section */
@@ -102,12 +113,18 @@ html {
 
 #hebergements .container a .card {
     width: 90%;
-    margin: 0.5rem 1rem;
+    height: 13rem;
+    margin: 0.5rem 5%;
+}
+
+#hebergements .container a .card .picture {
+    height: 9rem;
 }
 
 #hebergements .more {
     padding: 0;
     margin: 1rem;
+    margin-bottom: 0;
     font-weight: bold;
 }
 
@@ -132,15 +149,15 @@ html {
     margin: 1rem;
 }
 
-#most-popular .content .card {
+#most-popular .container .card {
     min-width: none;
     width: 90%;
-    margin: 1rem;
+    margin: 0.5rem 5%;
 }
 
 /* Activites Section */
 
-#activites {
+#activites h3 {
     margin: 0 1rem;
 }
 
@@ -150,9 +167,9 @@ html {
 }
 
 #activites .cards .card {
-    width: 100%;
+    width: 90%;
     height: 14rem;
-    margin: 0.5rem 0;
+    margin: 0.5rem 5%;
 }
 
 #activites .cards .card p {
@@ -160,6 +177,8 @@ html {
 }
 
 /* Footer */
+
+
 
 #footer .container {
     display: flex;
