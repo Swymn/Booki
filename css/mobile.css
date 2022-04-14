@@ -5,18 +5,16 @@ html {
 }
 
 body {
-    position: relative;
     box-sizing: border-box;
-}
-
-footer {
-    position: absolute;
-    bottom: -50%;
 }
 
 .workflow {
     width: 100%;
-    /* position: absolute; */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
 }
 
 /* Header Section */
@@ -123,13 +121,11 @@ footer {
 }
 
 #hebergements .container a {
-    margin: 0;
+    width: 100%;
 }
 
 #hebergements .container a .card {
-    width: 90%;
     height: 13rem;
-    margin: 0.5rem 4%;
 }
 
 #hebergements .container a .card .picture {
@@ -147,8 +143,10 @@ footer {
 
 #most-popular {
     border-radius: 0;
-    width: 100%;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
 }
 
 #most-popular .title {
@@ -164,10 +162,14 @@ footer {
     margin: 1rem;
 }
 
+#most-popular .container a {
+    margin: 0;
+    width: 100%;
+}
+
 #most-popular .container .card {
     min-width: none;
-    width: 90%;
-    margin: 0.5rem 4%;
+    margin: 0.5rem 0;
 }
 
 /* Activites Section */
@@ -181,8 +183,11 @@ footer {
     flex-wrap: nowrap;
 }
 
+#activites .cards a {
+    width: 100%;
+}
+
 #activites .cards .card {
-    width: 90%;
     height: 14rem;
     margin: 0.5rem 5%;
 }
@@ -193,9 +198,3 @@ footer {
 
 /* Footer */
 
-
-
-#footer .container {
-    display: flex;
-    flex-direction: column;
-}
