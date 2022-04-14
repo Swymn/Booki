@@ -29,6 +29,10 @@ a {
     align-items: center;
 }
 
+.picture {
+    object-fit: cover;
+}
+
 /* Header Section */
 
 #header {

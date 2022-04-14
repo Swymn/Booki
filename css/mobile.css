@@ -129,7 +129,7 @@ footer {
 #hebergements .container a .card {
     width: 90%;
     height: 13rem;
-    margin: 0.5rem 5%;
+    margin: 0.5rem 4%;
 }
 
 #hebergements .container a .card .picture {
@@ -167,7 +167,7 @@ footer {
 #most-popular .container .card {
     min-width: none;
     width: 90%;
-    margin: 0.5rem 5%;
+    margin: 0.5rem 4%;
 }
 
 /* Activites Section */
