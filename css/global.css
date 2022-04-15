@@ -248,7 +248,6 @@ a {
     border-radius: 1rem;
     padding: 2%;
     width: 28%;
-    height: 30rem;
 }
 
 #most-popular .title {
@@ -304,11 +303,16 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 24rem;
+    height: 26rem;
 }
 
 #activites a {
     width: 22%;
+    margin: 0.5rem 0 1rem;
+}
+
+#activites a.bottom-card {
+    margin: 1rem 0;
 }
 
 #activites .card {
@@ -352,16 +356,6 @@ a {
 #activites .card-4,
 #activites .card-4-bis {
     height: 11rem;
-}
-
-#activites .card-2,
-#activites .card-4 {
-    margin-bottom: 1rem;
-}
-
-#activites .card-3,
-#activites .card-4-bis {
-    margin-top: 1rem;
 }
 
 /* Footer */
