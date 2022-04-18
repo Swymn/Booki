@@ -178,6 +178,7 @@ body {
 #activites .cards {
     flex-direction: column;
     flex-wrap: nowrap;
+    height: 100%;
 }
 
 #activites .cards a {
