@@ -145,7 +145,7 @@ a {
     width: 2.2rem;
     height: 2.2rem;
     color: #0d6efd;
-    margin: -2px;
+    margin: -3px;
 }
 
 #search .filter-section .filters .filter p {
@@ -187,7 +187,10 @@ a {
     color: #0d6efd;
 }
 
-#main-content h3,
+#main-content .title, #main-content h3.title {
+    margin: 0.5rem 0 1.5rem;
+}
+
 #main-content h5 {
     margin: 0.5rem 0;
 }
@@ -208,7 +211,11 @@ a {
     border-radius: 1rem;
     padding: 2%;
     width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 #lodging .container {
     display: flex;
@@ -246,6 +253,7 @@ a {
 
 #lodging .more {
     font-size: 14px;
+    font-weight: bold;
 }
 
 /* Most Popular */

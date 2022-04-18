@@ -1,0 +1,55 @@
+/* Main Content Section */
+
+#main-content {
+    flex-direction: column;
+}
+
+#lodging, #most-popular {
+    margin: 1rem 0;
+    width: 95%;
+}
+
+/* Lodging Section */
+
+#lodging .container a {
+    width: 48%;
+}
+
+/* Most Popular Section */
+
+#most-popular .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#most-popular .container a {
+    width: 48%;
+}
+
+#most-popular .container .card {
+    margin: 3% 0;
+}
+
+/* Activités Section */
+
+#activities .cards {
+    height: 100%;
+    flex-direction: row;
+}
+
+#activities .cards a {
+    width: 45%;
+    margin: 1rem;
+}
+
+#activities .cards a .card {
+    height: 15rem;
+}
+
+/* Footer Sectin */
+
+#footer .container .menu-container {
+    margin-right: 10%;
+}
+
