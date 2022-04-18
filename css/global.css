@@ -170,30 +170,30 @@ a {
 
 /* Main Content */
 
-.main-content {
+#main-content {
     display: flex;
     justify-content: space-between;
 }
 
-.main-content .note {
+#main-content .note {
     color: #eee;
 }
 
-.main-content .active {
+#main-content .active {
     color: #0d6efd;
 }
 
-.main-content h3,
-.main-content h5 {
+#main-content h3,
+#main-content h5 {
     margin: 0.5rem 0;
 }
 
-.main-content p {
+#main-content p {
     margin: 0;
 }
 
-.main-content i,
-.main-content p {
+#main-content i,
+#main-content p {
     font-size: 10px;
 }
 
