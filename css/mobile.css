@@ -115,8 +115,8 @@ body {
     padding: 0;
 }
 
-#lodging .title {
-    margin: 2rem 1rem 0.5rem;
+#lodging h3.title {
+    margin: 1rem;
 }
 
 #lodging .container {
