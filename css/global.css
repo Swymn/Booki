@@ -199,48 +199,48 @@ a {
 
 /* Hébergement Section */
 
-#hebergements {
+#lodging {
     background-color: #eee;
     border-radius: 1rem;
     padding: 2%;
     width: 63%;
 }
 
-#hebergements .container {
+#lodging .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#hebergements .container a {
+#lodging .container a {
     margin-bottom: 3%;
     width: 32%;
     height: 20%;
 }
 
-#hebergements .container .card {
+#lodging .container .card {
     background-color: white;
     box-shadow: 7px 7px 15px -2px rgba(0,0,0,0.25);
     border-radius: 1rem;
     padding: 4px;
 }
 
-#hebergements .container .card .picture {
+#lodging .container .card .picture {
     width: 100%;
     height: 8rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
-#hebergements .container .card .description {
+#lodging .container .card .description {
     padding: 0 0.5rem;
 }
 
-#hebergements .container .card .description h5 {
+#lodging .container .card .description h5 {
     margin: 4px 0;
 }
 
-#hebergements .more {
+#lodging .more {
     font-size: 14px;
 }
 
@@ -296,47 +296,47 @@ a {
 
 /* Activités Section */
 
-#activites {
+#activities {
     margin: 3rem 0;
     display: flex;
     flex-direction: column;
 }
 
-#activites .cards {
+#activities .cards {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     height: 416px;
 }
 
-#activites a {
+#activities a {
     width: 22%;
     margin: 0.5rem 0 1rem;
 }
 
-#activites a.bottom-card {
+#activities a.bottom-card {
     margin: 1rem 0;
 }
 
-#activites .card {
+#activities .card {
     border-radius: 1rem;
     box-shadow: 7px 7px 15px -2px rgba(0,0,0,0.25);
     position: relative;
 }
 
-#activites .card .picture {
+#activities .card .picture {
     width: 100%;
     height: 100%;
     border-radius: 1rem;
 }
 
-#activites .card div {
+#activities .card div {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-#activites .card div p {
+#activities .card div p {
     background-color: #fff;
     margin: 0;
     padding: 1rem;
@@ -344,20 +344,20 @@ a {
     border-bottom-right-radius: 1rem;
 }
 
-#activites .card-1 {
+#activities .card-1 {
     height: 24rem;
 }
 
-#activites .card-2 {
+#activities .card-2 {
     height: 13.2rem;
 }
 
-#activites .card-3 {
+#activities .card-3 {
     height: 8.8rem;
 }
 
-#activites .card-4,
-#activites .card-4-bis {
+#activities .card-4,
+#activities .card-4-bis {
     height: 11rem;
 }
 
