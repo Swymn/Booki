@@ -67,9 +67,9 @@ body {
     color: white;
     font-weight: bold;
     padding: 0 1rem;
+    margin: -1px;
     border: none;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 #search .search-section .search-bar .button-field {
