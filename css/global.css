@@ -105,6 +105,7 @@ a {
     color: white;
     font-weight: bold;
     padding: 0 1rem;
+    margin: -1px;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }

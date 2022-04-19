@@ -25,6 +25,7 @@ body {
 
 #header .logo {
     margin: 0 auto 1.5rem;
+    padding-left: 8%;
 }
 
 #header nav .nav-menu {
