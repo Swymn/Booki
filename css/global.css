@@ -53,8 +53,41 @@ a {
     padding: 0 2rem;
 }
 
-#header nav .nav-menu .active {
+#header nav .nav-menu li a,
+#header nav .nav-menu li .active {
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    background-position-x: right;
+
+    transition: background-size 300ms;
+}
+
+#header nav .nav-menu li a {
+    background-image:
+        linear-gradient(
+            transparent 0%,
+            transparent 90%,
+            #000 90%,
+            #000 100%
+        );
+}
+
+#header nav .nav-menu li .active {
     color: #0d6efd;
+
+    background-image:
+        linear-gradient(
+            transparent 0%,
+            transparent 90%,
+            #0d6efd 90%,
+            #0d6efd 100%
+        );
+}
+
+#header nav .nav-menu li a:hover,
+#header nav .nav-menu li .active:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
 }
 
 /* Search Section */
@@ -288,6 +321,7 @@ a {
     box-shadow: 7px 7px 15px -2px rgba(0,0,0,0.25);
     border-radius: 1rem;
     width: 100%;
+    max-width: 25rem;
     height: 7rem;
     padding: 4px 0 4px 4px;
     margin: 2rem 0;
@@ -355,6 +389,7 @@ a {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    font-weight: bold;
 }
 
 #activities .card-1 {
