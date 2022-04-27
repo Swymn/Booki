@@ -55,39 +55,25 @@ a {
 
 #header nav .nav-menu li a,
 #header nav .nav-menu li .active {
-    background-repeat: no-repeat;
-    background-size: 0 100%;
-    background-position-x: right;
+    border-top: 0 solid;
 
-    transition: background-size 300ms;
+    transition: border-top-width 50ms;
 }
 
 #header nav .nav-menu li a {
-    background-image:
-        linear-gradient(
-            transparent 0%,
-            transparent 90%,
-            #000 90%,
-            #000 100%
-        );
+    border-top-color: #000;
 }
 
 #header nav .nav-menu li .active {
     color: #0d6efd;
-
-    background-image:
-        linear-gradient(
-            transparent 0%,
-            transparent 90%,
-            #0d6efd 90%,
-            #0d6efd 100%
-        );
+    border-top-color: #0d6efd;
 }
 
-#header nav .nav-menu li a:hover,
-#header nav .nav-menu li .active:hover {
-    background-size: 100% 100%;
-    background-position-x: left;
+@media screen and (min-width: 993px) {
+    #header nav .nav-menu li a:hover,
+    #header nav .nav-menu li .active:hover {
+        border-top-width: 2px;
+    }
 }
 
 /* Search Section */
