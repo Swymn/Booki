@@ -10,6 +10,7 @@ body {
 
 .workflow {
     width: 100%;
+    margin: 0;
 }
 
 .container {
@@ -82,7 +83,7 @@ body {
 } */
 
 #search .filter-section {
-    flex-direction: column;
+    display: block;
 }
 
 #search .filter-section p {
