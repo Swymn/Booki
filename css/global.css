@@ -65,11 +65,8 @@ a {
 }
 
 @media screen and (min-width: 993px) {
-    #header nav .nav-menu li:hover {
-        border-top-color: #000;
-    }
 
-    #header nav .nav-menu li.li-active:hover {
+    #header nav .nav-menu li:hover {
         border-top-color: #0065FC;
     }
 }
