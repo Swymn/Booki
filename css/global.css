@@ -61,7 +61,7 @@ a {
 }
 
 #header nav .nav-menu li .active {
-    color: #0d6efd;
+    color: #0065FC;
 }
 
 @media screen and (min-width: 993px) {
@@ -70,7 +70,7 @@ a {
     }
 
     #header nav .nav-menu li.li-active:hover {
-        border-top-color: #0d6efd;
+        border-top-color: #0065FC;
     }
 }
 
@@ -91,7 +91,7 @@ a {
 }
 
 #search .search-section p {
-    color: gray;
+    color: F2F2F2;
 }
 
 #search .search-section .search-bar {
@@ -117,7 +117,7 @@ a {
 }
 
 #search .search-section .search-bar .button-field {
-    background-color: #0d6efd;
+    background-color: #0065FC;
     border: none;
     color: white;
     font-weight: bold;
@@ -158,11 +158,11 @@ a {
 }
 
 #search .filter-section .filters .filter .icon {
-    background-color: #c3e6ff;
+    background-color: #DEEBFF;
     border-radius: 100%;
     width: 2.2rem;
     height: 2.2rem;
-    color: #0d6efd;
+    color: #0065FC;
     margin: -3px;
 }
 
@@ -179,7 +179,7 @@ a {
 #search .info .icon {
     border: 1px solid #eee;
     border-radius: 100%;
-    color: #0d6efd;
+    color: #0065FC;
     width: 1.2rem;
     height: 1.2rem;
 }
@@ -202,7 +202,7 @@ a {
 }
 
 #main-content .active {
-    color: #0d6efd;
+    color: #0065FC;
 }
 
 #main-content .title, #main-content h3.title {

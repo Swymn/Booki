@@ -5,7 +5,7 @@
 }
 
 #lodging, #most-popular {
-    margin: 1rem 0;
+    margin: 16px 0;
     width: 95%;
 }
 
@@ -40,11 +40,11 @@
 
 #activities .cards a {
     width: 45%;
-    margin: 1rem;
+    margin: 16px;
 }
 
 #activities .cards a .card {
-    height: 15rem;
+    height: 192px;
 }
 
 /* Footer Sectin */
