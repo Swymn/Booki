@@ -1,3 +1,3 @@
 # Booki
 
-URL : https://swymn.github.io/Booki/
+[URL](https://swymn.github.io/Booki/)

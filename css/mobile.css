@@ -78,10 +78,6 @@ body {
     display: none;
 }
 
-/* #search .search-section .search-bar .button-field {
-    TODO : MODIFIER LE MOT RECHERCHER PAR UNE LOUPE   
-} */
-
 #search .filter-section {
     display: block;
 }
